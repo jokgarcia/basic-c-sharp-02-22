@@ -57,7 +57,7 @@ namespace Basics
             
             for (int a = 0; a < 10; a++)
             {
-                Console.WriteLine("Loop Count: " + z);
+                Console.WriteLine("Loop Count: " + a);
             }
 
         }
