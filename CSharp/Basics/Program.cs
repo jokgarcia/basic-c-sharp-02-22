@@ -39,9 +39,9 @@ namespace Basics
             //    Console.WriteLine(product.ProductName + " is Not Found");
             //}
 
-            for (int i = 0; i < 10; i++)
+            for (int z = 0; z < 10; z++)
             {
-                Console.WriteLine("Loop Count: " + i);
+                Console.WriteLine("Loop Count: " + z);
             }
 
         }
