@@ -10,5 +10,7 @@ namespace Basics.Model
 
         public string DeptName { get; set; }
 
+        public string Rem { get; set; }
+
     }
 }
