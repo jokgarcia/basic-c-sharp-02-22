@@ -38,8 +38,15 @@ namespace Basics
             //{
             //    Console.WriteLine(product.ProductName + " is Not Found");
             //}
-
+            string s;
+            do
+            {
+                s = Console.ReadLine();
+                Console.WriteLine(s);
+            } while (!string.IsNullOrEmpty(s));
 
         }
+        //
+
     }
 }
