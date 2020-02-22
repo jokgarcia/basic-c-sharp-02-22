@@ -55,15 +55,28 @@ namespace Basics
                 i++;
             }
 
-            
-            for (int a = 0; a < 10; a++)
+            //if (product.Price > 0)
+            //{
+            //    Console.WriteLine("The Price of " +
+            //                      product.ProductName
+            //                      + " is " + product.Price);
+            //}
+            //else
+            //{
+            //    Console.WriteLine(product.ProductName + " is Not Found");
+            //}
+            string s;
+            do
             {
-                Console.WriteLine("Loop Count: " + a);
-            }
+                s = Console.ReadLine();
+                Console.WriteLine(s);
+            } while (!string.IsNullOrEmpty(s));
 
             //Object Oriented Programming
 
 
         }
+        //
+
     }
 }
