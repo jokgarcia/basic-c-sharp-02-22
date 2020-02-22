@@ -1,10 +1,12 @@
-﻿using System;
+﻿using Basics.DataAccess;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Basics.Model
 {
-    public class Product
+    //Inheritance
+    public class Product : ProductInformation
     {
         public string ProductId { get; set; }
         public string ProductName { get; set; }
