@@ -54,8 +54,8 @@ namespace Basics
                 i++;
             }
 
-
-            for (int z = 0; z < 10; z++)
+            
+            for (int a = 0; a < 10; a++)
             {
                 Console.WriteLine("Loop Count: " + z);
             }
