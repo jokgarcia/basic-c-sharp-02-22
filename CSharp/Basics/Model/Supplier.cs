@@ -10,5 +10,6 @@ namespace Basics.Model
         public string Lazada { get; set; }
         public string Amazon { get; set; }
         public string Ebay { get; set; }
+
     }
 }

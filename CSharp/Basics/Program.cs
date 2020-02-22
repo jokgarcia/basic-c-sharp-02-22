@@ -15,8 +15,7 @@ namespace Basics
             Customer customer = new Customer();
             Product product = new Product();
             ProductInformation productInformation = new ProductInformation();
-
-            //customer.FirstName = "Jok";
+            Supplier supplier = new Supplier();
 
             Console.WriteLine("Enter Name : ");
             customer.FirstName = Console.ReadLine();
